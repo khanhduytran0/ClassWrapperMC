@@ -15,7 +15,7 @@ public class ClassWrapper
 		// Remove mainClass
 		mainArgs.remove(0);
 		// Remove classpath
-		mainArgs.remove(1);
+		mainArgs.remove(0);
 		
 		List<URL> classPathList = new ArrayList<URL>();
 		for (String perLib : classPath.split(":")) {
